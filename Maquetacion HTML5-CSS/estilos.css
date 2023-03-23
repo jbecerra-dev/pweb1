@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1900px;
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(90deg, #573219 0%, #2b190d 100%);
+
+}
+
+header .barra-menu {
+   background: linear-gradient(90deg, hsla(24, 55%, 22%, 1) 0%, hsla(24, 55%, 11%, 1) 100%);
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   align-items: center;
+}
+
+header .barra-menu .menu {
+    padding: 20px;
+}
+
+header .barra-menu .menu a{
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+header .barra-menu .menu a:hover{
+    color: rgb(163, 160, 160);
+}
+
+header .portada {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+header .portada .titular-izq {
+    width: 50%;
+}
+
+header .portada .titular-izq #btn-comprar:hover {
+    background: #2b190d;
+    color: white;
+}
+
+header .portada .titular-izq #btn-comprar {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background: #ebebe1;
+    border-radius: 30px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+header .portada .titular-izq h1{
+    font-weight: 800;
+    font-size: 90px;
+    color: white;
+    line-height: 1.1;
+}
+
+header .portada .titular-izq p{
+    padding-top: 10px; 
+    padding-bottom: 20px; 
+    font-weight: 200;
+    font-size: 20px;
+    color: #e2e2e2;
+}
