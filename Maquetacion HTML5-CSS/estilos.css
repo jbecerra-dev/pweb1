@@ -198,6 +198,8 @@ header .portada .foto-cafe {
 }
 
 .nosotros {
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: auto;
     align-items: center;
     width: 80%;
@@ -221,4 +223,19 @@ header .portada .foto-cafe {
 .nosotros .descripcion p{
     font-weight: 300;
     font-size: 20px;
+}
+
+.nosotros .foto-brewlab {
+    padding: 20px;
+
+}
+.nosotros .foto-brewlab img {
+    border-radius: 40px;
+    margin-left: 20px;
+    border: #1d1d1d solid 3px;
+    transition: border ease 0.4s;
+}
+
+.nosotros .foto-brewlab img:hover {
+    border: #b8b8b8 solid 3px;
 }
