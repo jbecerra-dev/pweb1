@@ -113,7 +113,7 @@ header .portada .foto-cafe {
     rotate: -5deg;
 }
 
-main {
+.contenedor-servicios{
     background: linear-gradient(90deg, var(--colorPrimario) 0%, var(--colorSecundario) 100%);
 }
 
@@ -191,4 +191,34 @@ main {
 
 .servicios .item .btn-item:hover{
     background-color: var(--colorPrimario);
+}
+
+.contenedor-nosotros {
+    background-color: #1d1d1d;
+}
+
+.nosotros {
+    margin: auto;
+    align-items: center;
+    width: 80%;
+    display: flex;
+}
+
+.nosotros .descripcion {
+    width: 50%;
+}
+
+.nosotros .descripcion h2, p{
+    color: #e2e2e2;
+}
+
+.nosotros .descripcion h2 {
+    margin-bottom: 10px;
+    line-height: 1;
+    font-size: 50px;
+}
+
+.nosotros .descripcion p{
+    font-weight: 300;
+    font-size: 20px;
 }
